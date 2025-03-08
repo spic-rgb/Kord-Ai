@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 
 module.exports = {
-    usage: "tik-img",
+    usage: ["tik-img", "tt-img"],
     description: "Fetch and send images from a TikTok post",
     isPrivateOnly: false,
     isGroupOnly: false,
